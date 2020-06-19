@@ -6,6 +6,7 @@
 #include <set>
 #include <stack>
 #include <queue>
+#include <deque>
 
 using namespace std;
 
@@ -13,6 +14,12 @@ using namespace std;
 #define PRIME 1000000007
 
 #define ll long long
+
+#define f(i,a,n) for(int i = a; i < n; i++)
+#define fs(i,a,n,k) for(int i = a; i < n; i+=k)
+
+#define fr(i,a,n) for(int i = n; i > a; i--)
+#define frs(i,a,n,k) for(int i=n; i>a; i-=k)
 
 #define out1(a) cout << a << endl
 #define out2(a,b) cout << a << " " << b << endl
