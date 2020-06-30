@@ -16,7 +16,8 @@ using namespace std;
 
 #define ll long long
 
-#define rep(i, n) for(int i = 1; i <= n; i++)
+#define rep(n) for(int i = 1; i <= n; i++)
+#define reps(a, n) for(int a = 1; a <= n; a++)
 
 #define f(i,a,n) for(int i = a; i < n; i++)
 #define fs(i,a,n,k) for(int i = a; i < n; i+=k)
