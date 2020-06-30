@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 #include <string>
 #include <algorithm>
 #include <vector>
@@ -14,6 +15,8 @@ using namespace std;
 #define PRIME 1000000007
 
 #define ll long long
+
+#define rep(i, n) for(int i = 1; i <= n; i++)
 
 #define f(i,a,n) for(int i = a; i < n; i++)
 #define fs(i,a,n,k) for(int i = a; i < n; i+=k)
