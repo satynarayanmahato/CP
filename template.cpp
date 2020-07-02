@@ -14,7 +14,7 @@ using namespace std;
 #define endl "\n"
 #define PRIME 1000000007
 
-#define ll long long
+#define int long long
 
 #define f(i,a,n) for(int i = a; i < n; i++)
 #define fs(i,a,n,k) for(int i = a; i < n; i+=k)
@@ -27,7 +27,7 @@ using namespace std;
 #define out3(a,b,c) cout << a << " " << b << " " << c << endl
 
 
-int main(){
+signed main(){
 #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
