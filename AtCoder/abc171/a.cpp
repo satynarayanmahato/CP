@@ -3,7 +3,6 @@
 using namespace std;
 
 #define endl "\n"
-// g++ a.cpp -o a
 
 int main(){
     ios::sync_with_stdio(false);
