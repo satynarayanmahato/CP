@@ -1,26 +1,16 @@
-#include <iostream>
-#include <cmath>
-#include <string>
-#include <algorithm>
-#include <vector>
-#include <map>
-#include <set>
-#include <stack>
-#include <queue>
-#include <deque>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 #define endl "\n"
-#define PRIME 1000000007
+#define mod 1000000007
 
 #define int long long
 
 #define f(i,a,n) for(int i = a; i < n; i++)
 #define fs(i,a,n,k) for(int i = a; i < n; i+=k)
 
-#define fr(i,a,n) for(int i = n; i > a; i--)
-#define frs(i,a,n,k) for(int i=n; i>a; i-=k)
+#define fr(i, n) for(int i = n; i >= 0; i--)
+#define frs(i,a,n,k) for(int i=n; i>=a; i-=k)
 
 #define out1(a) cout << a << endl
 #define out2(a,b) cout << a << " " << b << endl
